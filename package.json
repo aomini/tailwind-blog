@@ -1,5 +1,5 @@
 {
-  "name": "app-dark-new",
+  "name": "app-next-dark",
   "private": true,
   "scripts": {
     "dev": "next dev",

@@ -1,7 +1,7 @@
 module.exports = {
   purge: [],
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  darkMode: "class", // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
       screens: {
@@ -11,10 +11,10 @@ module.exports = {
         'sm': '310px',
         // => @media (min-width: 640px) { ... }
 
-        'md': '768px',
+        'md': '580px',
         // => @media (min-width: 768px) { ... }
 
-        'lg': '1024px',
+        'lg': '820px',
         // => @media (min-width: 1024px) { ... }
 
         'xl': '1280px',
@@ -31,16 +31,11 @@ module.exports = {
         '5/6': '81.66%',
         '6/6': '98%',
       },
-      transitionProperty: {
-        'height': 'height',
-        'spacing': 'margin, padding',
-      }
-    },
+
+    }
   },
   variants: {
     extend: {
-      ringWidth: ['hover', 'active'],
-      flexDirection: ['hover', 'focus'],
       flexDirection: ['hover', 'focus'],
       flexWrap: ['hover', 'focus'],
       width: ['hover', 'focus'],
