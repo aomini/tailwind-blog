@@ -20,7 +20,7 @@ const Navbar = () => {
             <nav className="flex items-center justify-between flex-wrap bg-transparent p-8">
                 <div className="flex items-center flex-shrink-0 text-black mr-6">
 
-                    <h1 className="font-semibold text-2xl tracking-tight dark:text-blue-600">
+                    <h1 className="font-semibold text-2xl tracking-tight dark:text-white">
                         Kent C. Dodds
                     </h1>
                 </div>
@@ -85,15 +85,15 @@ const Navbar = () => {
                     </div>
                     <div className="flex justify-center items-center">
                         <button onClick={switchTheme}
-                            className="border-secondary hover:border-primary focus:border-primary inline-flex items-center justify-center p-1 h-14 border-2 rounded-full focus:outline-none overflow-hidden transition w-14"
+                            className="border-2 hover:border-red-500 rounded-full  w-14    h-14 p-1 m-auto"
                         >
-                            <svg xmlns="http://www.w3.org/2000/svg" className="  h-10 w-10 m-auto" fill="none" viewBox="0 0 22 22" stroke="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="  h-6 w-6 m-auto" fill="none" viewBox="0 0 22 22" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
                             </svg>
                         </button>
 
                         <button
-                            className="inline-flex items-center justify-center ml-4 w-14 h-14 rounded-full focus:outline-none" >
+                            className="border-2 hover:border-red-500 rounded-full  w-14    h-14 p-2 m-auto  mx-1" >
                             <img className="object-contain min-h-full min-w-full" src="https://kentcdodds.com/img/image/upload/q_auto,f_auto/kentcdodds.com/illustrations/kody_profile_white" />
                         </button>
 

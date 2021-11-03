@@ -3,17 +3,17 @@ import Navbar from "./Navbar"
 const LandingPage = () => {
     return (
         <>
-            <section className="md:container md:mx-auto bg-transparent">
+            <section className="container xl:container  md:container sm:container mx-auto bg-transparent ">
                 <Navbar />
-                <div className="container m-auto px-6  h-11/12  w-11/12 flex justify-between">
-                    <div className=" p-3  w-full h-full mt-40">
-                        <div className="w-2/3 m-auto  px-2">
+                <div className="container m-auto  h-12/12  w-6/6 border-2 flex flex-row">
+                    <div className=" p-2  w-full h-full mt-40">
+                        <div className="w-6/6 m-auto  ">
                             <h2 className="text-4xl antialiased font-medium tracking-normal">Helping people make the world a better place through quality software.</h2>
                             <div className="pt-8 py-2">
-                                <button className="bg-gray-800  rounded-full text-white font-bold text-base py-6  px-9 my-2  hover:bg-gray-600  dark:bg-gray-50 dark:text-black">
+                                <button className="bg-gray-800  rounded-full text-white font-bold text-base py-6  px-9 my-2 hover:bg-indigo-500 hover:ring-4   ring-yellow-600 transition duration-1000  dark:bg-gray-50 dark:text-black">
                                     Read the blog
                                 </button><br />
-                                <button className="bg-white rounded-full text-black font-bold text-base py-6  px-9  my-1 border-gray-300 border-2 dark:bg-gray-900 dark:text-white">
+                                <button className="bg-white rounded-full text-black font-bold text-base py-6  px-9  my-2 border-gray-300 border-2 dark:bg-gray-900 dark:text-white">
                                     Take a course
                                 </button>
                                 <div className=" mt-8 py-1 ">
@@ -26,6 +26,7 @@ const LandingPage = () => {
                                             </svg></div> &nbsp;  &nbsp; &nbsp;
                                             <span className="text-2xl pt-2 ">Learn More About Kent</span></h3>
                                     </button>
+
                                 </div>
                             </div>
 

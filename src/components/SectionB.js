@@ -40,6 +40,18 @@ const SectionB = () => {
                                 <br />
                                 <h5 className="max-w-full text-lg text-secondary mt-2 prose prose-light dark:prose-dark">My <strong className="text-gray-600 dark:text-white">186</strong> blog posts (and counting) have been read hundreds of thousands of times by 40,849 people. There you'll find blogs about <a className="text-gray-600 dark:text-white" href=""><strong>JavaScript</strong></a>, <a className="text-gray-600 dark:text-white" href=""><strong>TypeScript</strong></a>, <a className="text-gray-600 dark:text-white" href=""><strong>React</strong></a>, <a className="text-gray-600 dark:text-white" href=""><strong>Testing</strong></a>, <a className="text-gray-600 dark:text-white" href=""><strong>your career</strong></a>, and <a className="text-gray-600 dark:text-white" href=""><strong>and more</strong></a>.</h5>
                                 <p className="max-w-full text-lg text-blue-500 py-1">The <a className="text-team-blue underlined" href=""> <strong>blue</strong></a> team is winning.</p>
+
+                                <h3 className="flex focus-within:justify-between mt-3">
+                                    <span className="text-2xl pt-2 ">Learn More About Me</span> &nbsp;  &nbsp; &nbsp;
+                                    <div className="inline-block text-xl px-4 py-2 mx-1 leading-none border-2 rounded-full h-12 w-12 text-black border-black hover:border-red-200 hover:text-teal-500 hover:bg-white mt-4 lg:mt-0 dark:bg-black dark:text-white dark:border-white ">
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="6 7 15 19" stroke="currentColor">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                        </svg>
+
+                                    </div>
+                                </h3>
+
                             </div>
                         </div>
 

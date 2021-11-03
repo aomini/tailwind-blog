@@ -4,6 +4,7 @@ import { useTheme } from "next-themes";
 import LandingPage from "../src/components/LandingPage";
 import SectionA from "../src/components/SectionA";
 import SectionB from "../src/components/SectionB";
+import SectionC from "../src/components/SectionC";
 
 
 export default function Home() {
@@ -25,8 +26,9 @@ export default function Home() {
         <title>Hello this is the sample of darkn theme </title>
       </Head>
       <LandingPage />
-      <SectionA />
-      <SectionB />
+      {/* <SectionA /> */}
+      {/* <SectionB /> */}
+      {/* <SectionC /> */}
 
     </>
   )
